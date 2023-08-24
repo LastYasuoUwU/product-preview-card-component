@@ -1,11 +1,11 @@
 @font-face {
     font-family: "montserrat";
-    src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+    src: url("./fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf");
 }
 
 @font-face {
     font-family: "fraunces" ;
-    src: url("../fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+    src: url("./fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
 }
 
 *{
@@ -35,7 +35,7 @@ body{
 
 .productImageContainer{
     width: 100%;
-    background-image: url("../images/image-product-desktop.jpg");
+    background-image: url("./images/image-product-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px 0px 0px 15px;
@@ -129,7 +129,7 @@ body{
     }
     .productImageContainer{
         height: 45%;
-        background-image: url("../images/image-product-mobile.jpg");
+        background-image: url("./images/image-product-mobile.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 15px 15px 0px 0px;
